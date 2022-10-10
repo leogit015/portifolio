@@ -1,0 +1,44 @@
+.introdução{
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    align-items: center;
+}
+.introdução h1{
+    font-size: 4.5rem;
+    line-height: 1.125;
+    margin-bottom: 0px;
+}
+@media (max-width:1000px){
+    .introdução h1{
+        font-size: 3rem;
+
+    }
+}
+
+@media (max-width:800px){
+    .introdução{
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+
+    }
+    .introdução h1{
+        font-size: 2rem;
+    }
+}
+@media (max-width:500px){
+    .introdução img{
+        display: none;
+        
+
+    }
+    
+}
+@media (max-width:500px){
+    .introdução {
+        grid-template-columns: 1fr;    
+    }
+}

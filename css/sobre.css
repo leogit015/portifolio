@@ -1,0 +1,38 @@
+.sobre{
+    max-width: 1200px;
+    padding: 100px 20px ;
+    height: 600px;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+}
+.sobre .subtitulo{
+    color: #10086c;   
+}
+.sobre-texto{
+    font-size: 1.5rem;
+    line-height: 1.33;
+    max-width: 40ch;
+    margin-bottom: 60px;
+    color:#ffffffff ;
+}
+
+.sobre-mim{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+}
+
+@media (max-width: 800px){
+    .sobre{
+        grid-template-columns: 1fr;
+        gap:40px;
+    }
+    .sobre .subtitulo{
+       display: none;
+
+    }
+}
